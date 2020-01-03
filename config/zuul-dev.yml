@@ -2,9 +2,10 @@
 spring:
   application:
     name: turbin
-    cloud:
-      config:
-        override-none: true
+    
+  cloud:
+    config:
+      override-none: true
 server:
   port: 5001
   
