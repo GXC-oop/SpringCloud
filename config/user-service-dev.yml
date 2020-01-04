@@ -17,6 +17,12 @@ spring:
     username: admin
     password: admin
     
+
+  sleuth:
+    sampler:
+      probability: 0.1
+  
+    
 server:
   port: 8101
   
